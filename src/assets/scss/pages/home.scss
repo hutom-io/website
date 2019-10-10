@@ -1,0 +1,125 @@
+.container {
+	&.home {
+		.title {
+			height: 700px;
+			background: $bg;
+			// url('../../images/home/bg-home.png')no-repeat;
+			background-size: cover;
+			h3 {
+				margin: 0 auto;
+				font-size: 72px;
+				text-align: left;
+				line-height: 1.2;
+			}
+			p {
+				padding-top: 20px;
+				margin: 0 auto;
+				color: #fff;
+				font-size: 22px;
+				line-height: 42px;
+			}
+		}
+		.content {
+			.introduce {
+				margin: 0 auto;
+				display: flex;
+				p {
+					font-size: 20px;
+					line-height: 38px;
+					color: #787878;
+					text-align: left;
+					flex-basis: 50%;
+					max-width: 50%;
+				}
+				.imgWrap {
+					flex-basis: 50%;
+					max-width: 50%;
+					padding-left: 120px;
+					background-color: #3cb49d;
+				}
+				img {
+					width: 100%;
+				}
+			}
+			.departmentList {
+				display: flex;
+				flex: 1;
+				> li {
+					flex-basis: 25%;
+					max-width: 25%;
+					text-align: left;
+					& + li {
+						padding-left: 40px;
+					}
+					h5 {
+						font-size: 24px;
+						font-weight: 900;
+						line-height: 30px;
+						padding: 16px 0 14px;
+					}
+					p {
+						font-size: 20px;
+						color: $font-point-blue;
+						font-weight: 700;
+						line-height: 28px;
+					}
+					ol {
+						padding-top: 24px;
+						li {
+							font-size: 20px;
+							line-height: 28px;
+							color: $font-sub;
+							text-indent: -10px;
+							padding-left: 8px;
+							&::before {
+								content: "·"
+
+							}
+						}
+					}
+				}
+				.imgWrap {
+					min-height: 35px;
+				}
+			}
+			.provideTitle {
+				font-size: 50px !important;
+				text-align: left !important;
+				font-weight: 300 !important;
+				line-height: 65px !important;
+				span {
+					color: $font-point-blue;
+					background: #e2f4f1;
+					font-weight: 900;
+				}
+			}
+			.provideList {
+				display: flex;
+				flex: 1;
+				text-align: left;
+				padding-top: 42px;
+				h5 {
+					font-size: 24px;
+					font-weight: 900;
+					line-height: 30px;
+					padding: 16px 0 14px;
+				}
+				p {
+					font-size: 20px;
+					line-height: 28px;
+					color: $font-sub;
+				}
+				> li {
+					flex-basis: 33.3333%;
+					max-width: 33.3333%;
+					& + li {
+						padding-left: 40px;
+					}
+				}
+				.imgWrap  {
+					min-height: 87px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+.container {
+  &.about {
+      .title {
+          background: $bg;
+        //   url('../../images/bg-about.png')no-repeat;
+          background-size: cover;
+      }
+      
+  }
+  .tab-content > .peopleList {
+      padding-top: 105px;
+  }
+  .peopleList {
+      .top {
+          display: flex;
+          justify-content: center;
+          img {
+              width: 230px;
+              height: 230px;
+          }
+          .info {
+              margin-left: 105px;
+              text-align: left;
+          }
+          ul {
+              padding-top: 15px;
+              li {
+                  text-indent: -13px;
+                  padding-left: 10px;
+                  font-size: 20px;
+                  line-height: 32px;
+                  font-weight: 400;
+                  color: $font-sub;
+              }
+          }
+      }
+      
+      .info {
+          font-size: 24px;
+          line-height: 30px;
+          .position {
+              font-weight: 900;
+              color: $font-point-blue;
+          }
+          .name {
+              font-weight: 900;
+              color: $font-base;
+              padding: 5px 0;
+              font-size: 24px;
+              & + p {
+                  padding: 0 5px;
+                  font-size: 18px;
+                  word-break: keep-all;
+              }
+          }
+      }
+      .contentTitle.left {
+          padding-top: 105px;
+      }
+      .list {
+          text-align: left;
+          > li {
+              vertical-align: top;
+              text-align: center;
+              display: inline-block;
+              width: 25%;
+              li {
+                  padding: 0 5px;
+                  font-size: 18px;
+                  word-break: keep-all;
+              }
+          }
+          .info {
+              padding-top: 48px;
+              padding-bottom: 90px;
+          }
+      }
+  }
+}

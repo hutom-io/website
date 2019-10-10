@@ -1,0 +1,41 @@
+.container {
+  &.contact {
+      .title {
+          background: $bg;
+        //   url('../../images/bg-contact.png')no-repeat;
+          background-size: cover;
+      }
+      .content {
+          padding: 0 200px 140px;
+          margin: 0 auto;
+          display: flex;
+          article {
+              text-align: left;
+              &:first-child {
+                  flex-basis: 900px;
+                  max-width: 900px;
+                  padding: 90px 0 35px;
+              }
+              .contentTitle {
+                  .material-icons {
+                      color: $bg;
+                      font-size: 32px;
+                      vertical-align: middle;
+                  }
+              }
+              &.right {
+                  margin-left: 300px;
+                  padding: 90px 0 35px;
+                  p + h4 {
+                      margin-top: 72px;
+                  }
+                  p {
+                      line-height: 28px;
+                      color: $font-sub;
+                      font-size: 20px;
+                  }
+              }
+          }
+      }
+  }
+}

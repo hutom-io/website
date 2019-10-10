@@ -1,0 +1,37 @@
+.container {
+  &.solution {
+      .title {
+          background: $bg;
+        //   url('../../images/bg-solution.png')no-repeat;
+          background-size: cover;
+      }
+      .solutionList {
+          max-width: 1210px;
+          margin: 0 auto;
+          li {
+              display: flex;
+              text-align: left;
+              padding-bottom: 90px;
+              .img {
+                  max-width: 176px;
+                  flex-basis: 176px;
+              }
+              .text {
+                  flex-basis: calc(100% - 176px);
+              }
+              h5 {
+                  font-size: 24px;
+                  font-weight: 700;
+                  line-height: 30px;
+                  padding: 16px 0 32px;
+              }
+              p {
+                  font-size: 20px;
+                  line-height: 28px;
+                  color: $font-sub;
+              }
+          }
+
+      }
+  }
+}
