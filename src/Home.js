@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './assets/scss/style.scss';
 import Slider from "react-slick";
-import { Link, Route } from 'react-router-dom';
+//import { Link, Route } from 'react-router-dom';
 
 class Home extends Component {
   render() {
@@ -84,70 +84,97 @@ class Home extends Component {
                       <img src={require('./assets/images/home/ic04.png')} alt=""/>
                     </div>
                     <h5 className="name">Insurance Company</h5>
-                    <p className="position">Reducing total medical cost</p>
+                    <p className="position"> Reducing total medical cost </p>
                     <ol>
-                      <li>Reduced total medical cost from complications</li>
+                      <li>Reduction of cost for complication management</li>
                     </ol>
                   </li>
                 </ul>
               </article>
               <article>
                 <h4 className="provideTitle">
-                  The <span>Product</span> We Provide
+                  <div className="imgWrap">   
+                    <img src={require('./assets/images/home/the-product-we-provide.png')} alt=""/>
+                  </div>
                 </h4>
+
                 <ul className="provideList">
                   <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/icon_01.png')} alt=""/>
+                    <div className="sectionBoard">   
+                      <img src={require('./assets/images/home/rehearsal.png')} alt=""/>
                     </div>
+                  </li>
+                  <li>
                     <h5>Surgical Rehearsal</h5>
-                    <p> Instead of a training tool for operating the surgical robot, 
-                      hutom's surgical reheasal platform is a service that enhances the perfection of surgery 
-                      by performing the surgical procedure on patient-specific anatomical models in advance, 
-                      obtaining the best surgical methods, and utilizing them in real-world surgery.
-                    </p>
-                  </li>
-                  <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/icon_02.png')} alt=""/>
-                    </div>
-                    <h5>Surgical Navigation</h5>
-                    <p> Our navigation platform provides real-time surgical phase and event information on personalised patient anatomy using deep learning technology.
-                    </p>
-                  </li>
-                  <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/icon_03.png')} alt=""/>
-                    </div>
-                    <h5>Surgical Analytics</h5>
-                    <p> The hutom's Surgical Analytics platform produces innovative reports that compare with optimal surgery, as well as analysis of the surgical process and prediction of the surgical outcome.
+                    <p> Instead of a training tool for operating the surgical robot, hutom's surgical reheasal platform is a service that enhances the perfection of surgery by performing the surgical procedure on patient-specific anatomical models in advance,  obtaining the best surgical methods, and utilizing them in real-world surgery.
                     </p>
                   </li>
                 </ul>
               </article>
               <article>
-                <h4 className="contentTitle advisor">ADVISOR</h4>
+                <h4 className="contentTitle advisor">ADVISORS</h4>
                 <Slider {...settings}>
                     <div>
-                      <img src={require('./assets/images/about/advisor_01.png')} alt=""/>
+                      <img src={require('./assets/images/about/YONSEI.png')} alt=""/>
                     </div>
                     <div>
-                      <img src={require('./assets/images/about/advisor_02.png')} alt=""/> 
+                      <img src={require('./assets/images/about/KAIST.png')} alt=""/> 
                     </div>
                     <div>
-                      <img src={require('./assets/images/about/advisor_03.png')} alt=""/>
-                    </div>
-                    <div>
-                      <img src={require('./assets/images/about/advisor_01.png')} alt=""/>
-                    </div>
-                    <div>
-                      <img src={require('./assets/images/about/advisor_02.png')} alt=""/> 
-                    </div>
-                    <div>
-                      <img src={require('./assets/images/about/advisor_03.png')} alt=""/>
+                      <img src={require('./assets/images/about/SEOUL WOMEN.png')} alt=""/>
                     </div>
                   </Slider>
               </article>
+              
+              <article>
+                <ul className="provideList">
+                  <li>
+                    <h5>Surgical Navigation</h5>
+                    <p> The hutom's Surgical AI platform recognizes surgical video and produces a medical description. It produces innovative reports that compare with optimal surgery, as well as analysis of the surgical process and prediction of the surgical outcome.
+                    </p>
+                  </li>
+                  <li>
+                    <div className="sectionBoard">   
+                      <img src={require('./assets/images/home/navi.png')} alt=""/>
+                    </div>
+                  </li>
+                </ul>
+              </article>              
+              <article>
+                <h4 className="contentTitle advisor">PARTNERS</h4>
+                <Slider {...settings}>
+                    <div>
+                      <img src={require('./assets/images/about/SEVERANCE.png')} alt=""/>
+                    </div>
+                    <div>
+                      <img src={require('./assets/images/about/Catholic Eunpyeong.png')} alt=""/> 
+                    </div>
+                    <div>
+                      <img src={require('./assets/images/about/Catholic Seoul.png')} alt=""/>
+                    </div>
+                    <div>
+                      <img src={require('./assets/images/about/KOREA.png')} alt=""/>
+                    </div>
+                    <div>
+                      <img src={require('./assets/images/about/KYUNGHEE.png')} alt=""/>
+                    </div>
+                  </Slider>
+              </article>
+              <article>
+                <ul className="provideList">
+                  <li>
+                    <div className="sectionBoard">   
+                      <img src={require('./assets/images/home/planning.png')} alt=""/>
+                    </div>
+                  </li>
+                  <li>
+                    <h5>Surgical Analytics</h5>
+                    <p> A real-time based PaaS (Platform as a Service) solution that uses patient-specific 3D models to rovide anatomical information that is difficult to identify with images in combination with surgical information. 
+                    </p>
+                  </li>
+                </ul>
+              </article>              
+
             </section>
         </main>
         <footer>

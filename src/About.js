@@ -48,7 +48,7 @@ class About extends Component {
                       <div className="peopleList">
                         <h4 className="contentTitle left"> MEMBERS</h4>
                           <div className="top">
-                          <img src={require('./assets/images/memberProfile/C level/edit/ceo_hyung.png')} alt="ceo"/>
+                          <img src={require('./assets/images/memberProfile/C level/ceo_hyung.png')} alt="ceo"/>
                           <div className="info">
                             <p className="position">CEO</p>
                             <h5 className="name">Woo Jin Hyung </h5>
@@ -67,14 +67,14 @@ class About extends Component {
                         </div>
                         <ul className="list">
                           <li>
-                            <img src={require('./assets/images/memberProfile/C level/edit/coo_dmlee.png')} alt="COO VP"/>
+                            <img src={require('./assets/images/memberProfile/C level/doug_lee.png')} alt="COO VP"/>
                               <div className="info">
                                 <p className="position">COO · VP</p>
                                 <h5 className="name">Douglas Lee </h5>
                               </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/C level/edit/cto_eo.png')} alt="CTO"/>
+                            <img src={require('./assets/images/memberProfile/C level/sooheang_eo.png')} alt="CTO"/>
                             <div className="info">
                               <p className="position">CTO</p>
                               <h5 className="name">Soo-Heang Eo</h5>
@@ -82,7 +82,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/C level/edit/cais_jmkim.png')} alt="Chief AI Officer"/>
+                            <img src={require('./assets/images/memberProfile/C level/joonmo_kim.png')} alt="Chief AI Officer"/>
                             <div className="info">
                               <p className="position">Chief AI Scientist</p>
                               <h5 className="name">Joonmo Kim</h5>
@@ -90,35 +90,35 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_minkookchoi.png')} alt="Research Scientist"/>
+                            <img src={require('./assets/images/memberProfile/Member/minkook_choi.png')} alt="Research Scientist"/>
                             <div className="info">
                               <p className="position">Research Scientist</p>
                               <h5 className="name">Min-Kook Choi</h5>
                             </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_heonjinha.png')} alt="Research Engineer"/>
+                            <img src={require('./assets/images/memberProfile/Member/heonjin_ha.png')} alt="Research Engineer"/>
                             <div className="info">
                               <p className="position">Research Engineer</p>
                               <h5 className="name">Heonjin Ha</h5>
                             </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_sunghwanheo.png')} alt="Software Engineer"/>
+                            <img src={require('./assets/images/memberProfile/Member/sunghwan_heo.png')} alt="Software Engineer"/>
                             <div className="info">
                               <p className="position">Software Engineer</p>
                               <h5 className="name">Sung-Hwan Heo</h5>
                             </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_geunhojang.png')} alt="Software Engineer"/>
+                            <img src={require('./assets/images/memberProfile/Member/geunho_jang.png')} alt="Software Engineer"/>
                             <div className="info">
                               <p className="position">Software Engineer</p>
                               <h5 className="name">Geun-ho Jang</h5>
                             </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_hajinkim.png')} alt="UX/UI Planner"/>
+                            <img src={require('./assets/images/memberProfile/Member/hajin_kim.png')} alt="UX/UI Planner"/>
                             <div className="info">
                               <p className="position">UX·UI Planner</p>
                               <h5 className="name">Hajin Kim</h5>
@@ -126,7 +126,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                          <img src={require('./assets/images/memberProfile/Member/edit/member_jisulee.png')} alt="Annotation Specailist"/>
+                          <img src={require('./assets/images/memberProfile/Member/jisu_lee.png')} alt="Annotation Specailist"/>
                             <div className="info">
                               <p className="position">UI Designer</p>
                               <h5 className="name">Jisu Lee</h5>
@@ -134,7 +134,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                          <img src={require('./assets/images/memberProfile/Member/edit/member_jiwonlee.png')} alt="Annotation Specailist"/>
+                          <img src={require('./assets/images/memberProfile/Member/jiwon_lee.png')} alt="Annotation Specailist"/>
                             <div className="info">
                               <p className="position">Data Researcher</p>
                               <h5 className="name">Jiwon Lee</h5>
@@ -142,14 +142,14 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_rannypark.png')} alt="Management"/>
+                            <img src={require('./assets/images/memberProfile/Member/ranny_park.png')} alt="Management"/>
                             <div className="info">
                               <p className="position">Manager</p>
                               <h5 className="name">Ranny Park</h5>
                             </div>
                           </li>
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_chihyunsong.png')} alt="Research Engineer"/>
+                            <img src={require('./assets/images/memberProfile/Member/chihyun_song.png')} alt="Research Engineer"/>
                             <div className="info">
                               <p className="position">Research Engineer</p>
                               <h5 className="name">Chihyun Song</h5>
@@ -157,7 +157,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_hunmoyang.png')} alt="Research Scientist"/>
+                            <img src={require('./assets/images/memberProfile/Member/hunmo_yang.png')} alt="Research Scientist"/>
                             <div className="info">
                               <p className="position">Research Engineer</p>
                               <h5 className="name">Hunmo Yang</h5>
@@ -166,7 +166,7 @@ class About extends Component {
 
                          
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_hayeongyu.png')} alt="3D Modeler" />
+                            <img src={require('./assets/images/memberProfile/Member/hayoung_yu.png')} alt="3D Modeler" />
                             <div className="info">
                               <p className="position">3D Modeler</p>
                               <h5 className="name">HaYoung Yu</h5>
@@ -174,7 +174,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_seulgihong.png')} alt="Research Resident" />
+                            <img src={require('./assets/images/memberProfile/Member/seulgi_hong.png')} alt="Research Resident" />
                             <div className="info">
                               <p className="position">Research Resident</p>
                               <h5 className="name">Seul-gi Hong</h5>
@@ -182,7 +182,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_seungbumhong.png')} alt="Research Resident" />
+                            <img src={require('./assets/images/memberProfile/Member/seungbum_hong.png')} alt="Research Resident" />
                             <div className="info">
                               <p className="position">Research Resident</p>
                               <h5 className="name">Seungbeom Hong</h5>
@@ -190,7 +190,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_songalee.png')} alt="Intern" />
+                            <img src={require('./assets/images/memberProfile/Member/songa_lee.png')} alt="Intern" />
                             <div className="info">
                               <p className="position">Intern</p>
                               <h5 className="name">Song-A Lee</h5>
@@ -198,7 +198,7 @@ class About extends Component {
                           </li>
 
                           <li>
-                            <img src={require('./assets/images/memberProfile/Member/edit/member_jayeonlim.png')} alt="Intern" />
+                            <img src={require('./assets/images/memberProfile/Member/jayeon_lim.png')} alt="Intern" />
                             <div className="info">
                               <p className="position">Intern</p>
                               <h5 className="name">Jayeon Lim</h5>
@@ -247,7 +247,7 @@ class About extends Component {
                         </div>
 
                         <div className="top">
-                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_swhan.jpg.png')} alt="MDPhD"/>
+                          <img src={require('./assets/images/memberProfile/Technical Advisor/edit/advisor_tech_hellenhong.jpeg.png')} alt="MDPhD"/>
                           <div className="info">
                             <p className="position"> Professor </p>
                             <h5 className="name"> Hellen Hong, PhD </h5>
@@ -264,14 +264,15 @@ class About extends Component {
                         </div>
                         
                         <div className="top">
-                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_swhan.jpg.png')} alt="MDPhD"/>
+                          <img src={require('./assets/images/memberProfile/C level/joonmo_kim.png')} alt="MDPhD"/>
                           <div className="info">
                             <p className="position"> Associate Professor </p>
                             <h5 className="name"> Joonmo Kim, PhD </h5>
                             <ul>
                               <li>
                                 - School of Electrical Engineering,<br/>
-                                Korea Advanced Institute of Science and Technology Daejeon, Korea
+                                Korea Advanced Institute of Science and Technology, <br/>
+                                Daejeon, Korea
                               </li>
                               <li>
                                 - Deep Learning, Computer Vision
@@ -281,7 +282,7 @@ class About extends Component {
                         </div>
 
                         <div className="top">
-                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_swhan.jpg.png')} alt="MDPhD"/>
+                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_shkim.jpeg.png')} alt="MDPhD"/>
                           <div className="info">
                             <p className="position"> Professor </p>
                             <h5 className="name"> Sunhan Kim, MD, PhD </h5>
@@ -332,14 +333,15 @@ class About extends Component {
                         </div>
 
                         <div className="top">
-                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_swhan.jpg.png')} alt="MDPhD"/>
+                          <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_shlee.png')} alt="MDPhD"/>
                           <div className="info">
                             <p className="position"> Assistant Professor </p>
                             <h5 className="name"> Sohee Lee, MD, PhD </h5>
                             <ul>
                               <li>
                                 - Department of Surgery,<br/>
-                                The Catholic University of Korea College of Medicine, Seoul, Korea
+                                The Catholic University of Korea College of Medicine, <br/>
+                                Seoul, Korea
                               </li>
                               <li>
                                 - Thyroid Cancer
@@ -373,7 +375,8 @@ class About extends Component {
                             <ul>
                               <li>
                                 - Department of Surgery,<br/>
-                                The Catholic University of Korea College of Medicine, Seoul, Korea
+                                The Catholic University of Korea College of Medicine, <br/>
+                                Seoul, Korea
                               </li>
                               <li>
                                 - Gastric Cancer
@@ -388,19 +391,19 @@ class About extends Component {
                     <div className="peopleList">
                     <ul className="list">
                       <li>
-                        <img src={require('./assets/images/memberProfile/C level/edit/ceo_hyung.png')} alt="ceo"/>
+                        <img src={require('./assets/images/memberProfile/C level/ceo_hyung.png')} alt="ceo"/>
                         <div className="info">
                           <h5 className="name">Woo Jin Hyung</h5>
                         </div>
                         </li>
                         <li>
-                          <img src={require('./assets/images/memberProfile/C level/edit/coo_dmlee.png')} alt="COO VP"/>
+                          <img src={require('./assets/images/memberProfile/C level/doug_lee.png')} alt="COO VP"/>
                           <div className="info">
                             <h5 className="name">Douglas Lee</h5>
                           </div>
                         </li>
                         <li>
-                          <img src={require('./assets/images/memberProfile/C level/edit/cais_jmkim.png')} alt="Chief AI Scientist"/>
+                          <img src={require('./assets/images/memberProfile/C level/joonmo_kim.png')} alt="Chief AI Scientist"/>
                           <div className="info">
                             <h5 className="name">Joonmo Kim</h5>
                           </div>
@@ -418,7 +421,7 @@ class About extends Component {
                           </div>
                         </li>
                         <li>
-                          <img src={require('./assets/images/memberProfile/C level/edit/member_board_mkkim.png')} alt="CEO of LSK Investment"/>
+                          <img src={require('./assets/images/memberProfile/C level/mk_kim.png')} alt="CEO of LSK Investment"/>
                           <div className="info">
                             <h5 className="name">Myung Kee Kim</h5>
                           </div>
@@ -434,22 +437,13 @@ class About extends Component {
                 <h4 className="contentTitle">ADVISOR</h4>
                 <Slider {...settings}>
                   <div>
-                    <img src={require('./assets/images/about/advisor_01.png')} alt=""/>
+                    <img src={require('./assets/images/about/YONSEI.png')} alt=""/>
                   </div>
                   <div>
-                    <img src={require('./assets/images/about/advisor_02.png')} alt=""/> 
+                    <img src={require('./assets/images/about/KAIST.png')} alt=""/> 
                   </div>
                   <div>
-                    <img src={require('./assets/images/about/advisor_03.png')} alt=""/>
-                  </div>
-                  <div>
-                    <img src={require('./assets/images/about/advisor_01.png')} alt=""/>
-                  </div>
-                  <div>
-                    <img src={require('./assets/images/about/advisor_02.png')} alt=""/> 
-                  </div>
-                  <div>
-                    <img src={require('./assets/images/about/advisor_03.png')} alt=""/>
+                    <img src={require('./assets/images/about/SEOUL WOMEN.png')} alt=""/>
                   </div>
                 </Slider>
               </article>

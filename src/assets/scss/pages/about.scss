@@ -12,10 +12,11 @@
   .peopleList {
       .top {
           display: flex;
-          justify-content: center;
+          justify-content: left;
           padding-bottom: 5rem;
           img {
-              width: 230px;
+                margin-left: 105px;
+                width: 230px;
               height: 230px;
           }
           .info {
@@ -23,7 +24,7 @@
               text-align: left;
           }
           ul {
-              padding-top: 15px;
+              padding-top: 10px;
               li {
                   text-indent: -13px;
                   padding-left: 10px;
