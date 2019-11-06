@@ -20,12 +20,11 @@ class Home extends Component {
         <main className="container home">
             <section className="title">
               <div className="wrap">
-                  <h3>Smarter Surgery<br/>
-                  and Safer.</h3>
+                  <h3>Fair Environment<br/>
+                  for Surgeon</h3>
                   <p>
-                      With the <b>help</b> contemporary computer <b>technology</b>,<br/>
-                      it is possible to create a <b>virtual surgical</b> simulation<br/>
-                      and artificial Intelligence for Intraoperative video analysis.
+                      We standardise surgery,<br/>
+                      by distilling meaning from data.
                   </p>
               </div>
             </section>
@@ -36,8 +35,8 @@ class Home extends Component {
                   developing for surgical patients care is more suitable because laparoscopic or robotic surgery is performed in an environment of imaging and data. 
                 </p>
                 <div className="imgWrap">
-                  {/* <img src={require('./assets/images/home/img-content.png')} alt="content img" /> */}
-                  <div className="img-content1"></div>
+                  <img src={require('./assets/images/home/company_banner.png')} alt="content img" />
+                  {/* <div className="img-content1"></div> */}
                 </div>
               </article>
               <article>
@@ -87,9 +86,9 @@ class Home extends Component {
                       <img src={require('./assets/images/home/ic04.png')} alt=""/>
                     </div>
                     <h5 className="name">Insurance Company</h5>
-                    <p className="position">합병증으로 인한 수술 후 의료 비용 감소</p>
+                    <p className="position">Reducing total medical cost</p>
                     <ol>
-                      <li>Reduction of cost for complication management</li>
+                      <li>Reduced total medical cost from complications</li>
                     </ol>
                   </li>
                 </ul>
@@ -112,11 +111,10 @@ class Home extends Component {
                       <img src={require('./assets/images/home/icon_01.png')} alt=""/>
                     </div>
                     <h5>Surgical Rehearsal</h5>
-                    <p>휴톰의 SR은 수술 로봇 작동의 숙련도를 확보하기 위한 
-                      트레이닝 툴이 아닌, 환자 특이적 해부 모델을 대상으로 
-                      수술 과정을 미리 수행하t고 최적의 수술 방법을 확보하여
-                      실제 수술에서도 활용함으로써 수술의 완성도를 높이는 
-                      서비스입니다.
+                    <p> Instead of a training tool for operating the surgical robot, 
+                      hutom's surgical reheasal platform is a service that enhances the perfection of surgery 
+                      by performing the surgical procedure on patient-specific anatomical models in advance, 
+                      obtaining the best surgical methods, and utilizing them in real-world surgery.
                     </p>
                   </li>
                   <li>
@@ -124,9 +122,7 @@ class Home extends Component {
                       <img src={require('./assets/images/home/icon_02.png')} alt=""/>
                     </div>
                     <h5>Surgical Navigation</h5>
-                    <p>환자 특이적 3D 모델을 사용하여, 영상으로 확인하기 어려운 
-                      해부학적 정보를 실제 수술 시 수술 영상과 정합하여 제공하는 
-                      클라우딩 서비스입니다.
+                    <p> Our navigation platform provides real-time surgical phase and event information on personalised patient anatomy using deep learning technology.
                     </p>
                   </li>
                   <li>
@@ -134,11 +130,7 @@ class Home extends Component {
                       <img src={require('./assets/images/home/icon_03.png')} alt=""/>
                     </div>
                     <h5>Surgical Analytics</h5>
-                    <p>휴톰의 Surgical AI 플랫폼은 수술 동영상을 
-                      인식하여의학적인 의미를 갖는 Description을 
-                      생산합니다. 이는 수술 과정에 대한 분석,수술 
-                      결과에 대한 예측뿐만 아니라 최적의 수술과 
-                      비교하는 혁신적인 리포트를 생산합니다.
+                    <p> The hutom's Surgical Analytics platform produces innovative reports that compare with optimal surgery, as well as analysis of the surgical process and prediction of the surgical outcome.
                     </p>
                   </li>
                 </ul>

@@ -1,9 +1,14 @@
 .container {
   &.solution {
       .title {
-          background: $bg;
-        //   url('../../images/bg-solution.png')no-repeat;
+          background: $bg url('../../images/website_banner_solution.jpg')no-repeat;
           background-size: cover;
+      }
+      .content {
+        .hsp-image {
+					max-width: 100%;
+					height: auto;
+				}
       }
       .solutionList {
           max-width: 1210px;

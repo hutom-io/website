@@ -9,7 +9,7 @@ function Contact() {
             <h3>CONTACT</h3>
           </section>
           <section className="content">
-            <article>
+            {/* <article>
               <h4 className="contentTitle">
                 <i className="material-icons">
                     mail_outline
@@ -43,6 +43,9 @@ function Contact() {
                     </i>
                 </button>
               </div>
+            </article> */}
+            <article className="contact-us">
+              <button className="btn md primary"><a rel="noopener noreferrer" href="https://www.wanted.co.kr/company/2057" target="_blank" className="join-us">CONTACT US</a></button>
             </article>
             <article className="right">
               <h4 className="contentTitle">Office</h4>

@@ -1,8 +1,7 @@
 .container {
   &.about {
       .title {
-          background: $bg;
-        //   url('../../images/bg-about.png')no-repeat;
+          background: $bg url('../../images/website_banner_about.jpg')no-repeat;
           background-size: cover;
       }
       
@@ -14,6 +13,7 @@
       .top {
           display: flex;
           justify-content: center;
+          padding-bottom: 5rem;
           img {
               width: 230px;
               height: 230px;
@@ -55,7 +55,7 @@
           }
       }
       .contentTitle.left {
-          padding-top: 105px;
+          padding-top: 10px;
       }
       .list {
           text-align: left;

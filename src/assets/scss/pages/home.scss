@@ -2,8 +2,7 @@
 	&.home {
 		.title {
 			height: 700px;
-			background: $bg;
-			// url('../../images/home/bg-home.png')no-repeat;
+			background: $bg url('../../images/website_banner_main.jpg')no-repeat;
 			background-size: cover;
 			h3 {
 				margin: 0 auto;
@@ -35,7 +34,9 @@
 					flex-basis: 50%;
 					max-width: 50%;
 					padding-left: 120px;
-					background-color: #3cb49d;
+					max-width: 100%;
+					height: auto;
+					// background-color: #3cb49d;
 				}
 				img {
 					width: 100%;
