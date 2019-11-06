@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './assets/scss/style.scss';
 import Slider from "react-slick";
 import { Link, Route } from 'react-router-dom';
-import Solution from './Solution';
 
 class Home extends Component {
   render() {
@@ -20,18 +19,17 @@ class Home extends Component {
         <main className="container home">
             <section className="title">
               <div className="wrap">
-                  <h3>Fair Environment<br/>
-                  for Surgeon</h3>
+                  <h3>Unraveling Surgery<br/>
+                  for Caring Patients</h3>
                   <p>
-                      We standardise surgery,<br/>
-                      by distilling meaning from data.
+                      We encode moments, decode meanings.
                   </p>
               </div>
             </section>
             <section className="content">
               <article className="introduce">
                 <p>Compared to conventional open surgery, proportion of laparoscopic or robotic surgery has been increased rapidly due to better surgical outcomes, 
-                  even with its high cost.<br/> These changes are influenced by coverage of insurance system as well as patients’ preference. More importantly, the new platform which HUTOM is 
+                  even with its high cost.<br/> These changes are influenced on coverage of insurance system as well as patients’ preference. More importantly, the new platform which HUTOM is 
                   developing for surgical patients care is more suitable because laparoscopic or robotic surgery is performed in an environment of imaging and data. 
                 </p>
                 <div className="imgWrap">
@@ -97,14 +95,6 @@ class Home extends Component {
                 <h4 className="provideTitle">
                   The <span>Product</span> We Provide
                 </h4>
-                <button className="moreBtn">
-                    <Link to="/solution">More
-                    <i className="material-icons">
-                      keyboard_arrow_right
-                    </i>
-                    </Link>
-                </button>
-                <Route path="/solution" exact component={Solution} />
                 <ul className="provideList">
                   <li>
                     <div className="imgWrap">   
