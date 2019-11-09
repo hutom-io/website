@@ -44,7 +44,7 @@ class About extends Component {
                 <h4 className="contentTitle">TEAM</h4>
                 <div className="tabContainer">
                   <Tabs>
-                    <div label="MEMBER">
+                    <div label="MEMBERS">
                       <div className="peopleList">
                         <h4 className="contentTitle left"> MEMBERS</h4>
                           <div className="top">
@@ -285,7 +285,7 @@ class About extends Component {
                           <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_shkim.jpeg.png')} alt="MDPhD"/>
                           <div className="info">
                             <p className="position"> Professor </p>
-                            <h5 className="name"> Sunhan Kim, MD, PhD </h5>
+                            <h5 className="name"> Seon-Hahn Kim, MD, PhD </h5>
                             <ul>
                               <li>
                                 - Department of Surgery,<br/>
@@ -387,42 +387,48 @@ class About extends Component {
                       </ul>
                       </div>
                     </div>
-                    <div label="BOARD MEMBER">
+                    <div label="BOARD MEMBERS">
                     <div className="peopleList">
                     <ul className="list">
                       <li>
                         <img src={require('./assets/images/memberProfile/C level/ceo_hyung.png')} alt="ceo"/>
                         <div className="info">
+                          <p className="position"> CEO <br/> hutom </p>
                           <h5 className="name">Woo Jin Hyung</h5>
                         </div>
                         </li>
                         <li>
                           <img src={require('./assets/images/memberProfile/C level/doug_lee.png')} alt="COO VP"/>
                           <div className="info">
+                            <p className="position"> COO · VP <br/> hutom </p>
                             <h5 className="name">Douglas Lee</h5>
                           </div>
                         </li>
                         <li>
                           <img src={require('./assets/images/memberProfile/C level/joonmo_kim.png')} alt="Chief AI Scientist"/>
                           <div className="info">
+                            <p className="position"> Professor <br/> KAIST </p>
                             <h5 className="name">Joonmo Kim</h5>
                           </div>
                         </li>
                         <li>
                           <img src={require('./assets/images/memberProfile/Clinical Advisor/edit/advisor_clinical_jslim.jpg.png')} alt="Professor"/>
                           <div className="info">
+                            <p className="position"> Vice Director <br/> Yonsei Cancer Center </p>
                             <h5 className="name">Joon seok Lim</h5>
                           </div>
                         </li>
                         <li>
                           <img src={require('./assets/images/memberProfile/Technical Advisor/edit/advisor_tech_hellenhong.jpeg.png')} alt="Professor"/>
                           <div className="info">
+                          <p className="position"> Professor <br/> Seoul Women's Univ. </p>
                             <h5 className="name">Hellen Hong</h5>
                           </div>
                         </li>
                         <li>
                           <img src={require('./assets/images/memberProfile/C level/mk_kim.png')} alt="CEO of LSK Investment"/>
                           <div className="info">
+                            <p className="position"> CEO <br/> LSK Investment </p>
                             <h5 className="name">Myung Kee Kim</h5>
                           </div>
                         </li>
@@ -434,7 +440,7 @@ class About extends Component {
                 <button className="btn md primary"><a rel="noopener noreferrer" href="https://www.wanted.co.kr/company/2057" target="_blank" className="join-us">JOIN US</a></button>
               </article>
               <article>
-                <h4 className="contentTitle">ADVISOR</h4>
+                <h4 className="contentTitle">ADVISORS</h4>
                 <Slider {...settings}>
                   <div>
                     <img src={require('./assets/images/about/YONSEI.png')} alt=""/>
@@ -450,9 +456,13 @@ class About extends Component {
             </section>
         </main>
         <footer>
-          <div className="wrap">
+        <div className="wrap">
             <p>© 2019 hutom. All rights reserved.</p>
-            <p>6F #615, 21, Baekbeom-ro 31-gil, Mapo-gu, Seoul(04147), Republic of Koreaa</p>
+            <p>Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (04147) 6F #615, 21, Baekbeom-ro 31-gil, Mapo-gu, Seoul, Republic of Korea
+              <br/>
+              <br/>
+              Call US &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ranny Park, Manager   TEL: +82-2-6956-0426   Email: contact@hutom.io
+            </p>
           </div>
         </footer>
 

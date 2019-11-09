@@ -14,7 +14,7 @@
 				padding-top: 20px;
 				margin: 0 auto;
 				color: #fff;
-				font-size: 22px;
+				font-size: 32px;
 				line-height: 42px;
 			}
 		}
@@ -34,7 +34,7 @@
 					flex-basis: 50%;
 					max-width: 50%;
 					padding-left: 120px;
-					max-width: 100%;
+					//max-width: 100%;
 					height: auto;
 					// background-color: #3cb49d;
 				}
@@ -45,27 +45,55 @@
 			.departmentList {
 				display: flex;
 				flex: 1;
-				> li {
+				.box  {
+					width: 303.3px;
+					height: 470.6px;
 					flex-basis: 25%;
-					max-width: 25%;
-					text-align: left;
-					& + li {
-						padding-left: 40px;
-					}
+					min-height: 25%;
+					float: left;
+					//min-width: 25%; 
+					text-align: center;
+					border-radius: 15px;
+					box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.3);
+					background-color: #ffffff;
+					overflow: visible;
+
 					h5 {
 						font-size: 24px;
 						font-weight: 900;
 						line-height: 30px;
+						text-align: center;
 						padding: 16px 0 14px;
-					}
+						flex-basis: 50%;
+						}
 					p {
 						font-size: 20px;
 						color: $font-point-blue;
 						font-weight: 700;
 						line-height: 28px;
+						text-align: center;
+						}
+					.imgWrap {
+						//min-height: 35px;
+						padding-top: 25.9px;
+						flex-basis: 50%;
+						//max-width: 50%;
+						height: auto;
+					}
+				}
+				> li {
+					flex-basis: 25%;
+					max-width: 50%;
+					text-align: left;
+					//padding-left: 40px;
+					& + li {
+						//padding-left: 40px;
 					}
 					ol {
 						padding-top: 24px;
+						padding-left: 15px;
+						padding-right: 15px;
+						text-align: left;
 						li {
 							font-size: 20px;
 							line-height: 28px;
@@ -79,76 +107,83 @@
 						}
 					}
 				}
-				.imgWrap {
-					min-height: 35px;
-				}
+
 			}
 			.provideTitle {
-				font-size: 50px !important;
+				//font-size: 50px !important;
 				text-align: left !important;
-				font-weight: 300 !important;
-				line-height: 65px !important;
-				span {
-					color: $font-point-blue;
-					background: #e2f4f1;
-					font-weight: 900;
+				//font-weight: 300 !important;
+				//line-height: 65px !important;
+				padding-bottom: 59px;
+				max-width: 100%;
+				height: auto;
+				//flex-basis: 50%;
+				//display: flex;
+				.img {
+					padding-top: 25.9px;
+					max-width: 100%;
+					height: auto;
+					//vertical-align: bottom;
 				}
 			}
+
 			.provideList {
-				display: flex;
+				//margin: 0 auto;
+				//display: flex;
 				flex: 1;
-				text-align: left;
 				//padding-top: 42px;
-				height: 445px;
+				margin: 0 auto;
+				display: flex;
+				height: auto;
 				background-color: #f5f5f5;
-
-				h5 {
-					font-size: 24px;
-					color: #36bead;
-					font-weight: 900;
-					line-height: 1.99px;//30px;
-					padding: 130.3px 69.6px 14px;
-				}
-
-				h5l {
-					font-size: 24px;
-					color: #36bead;
-					font-weight: 900;
-					line-height: 1.99px;//30px;
-					padding: 130.3px 69.6px 14px;
-				}
-
-				p {
-					font-size: 20px;
-					line-height: 28px;
-					color: #797979;
-//					color: $font-sub;
-					padding: 57.4px 69.6px 14px;
-				}
-
-				> li {
-					flex-basis: 50%;
-					max-width: 50%;
-					& + li {
-						padding-left: 40px;
+				padding-top: 0px;
+				padding-bottom: 0px;
+				//background-size: cover;
+				.wrap{
+					padding-left: 69.6px;
+					h5 {
+						flex-basis: 50%;
+						margin: 0 auto;
+						font-size: 28px;
+						text-align: left;
+						color: #36bead;
+						font-weight: 900;
+						line-height: 30px;
+						padding-top: 130.3px; 
+						padding-bottom: 14px;
+					}
+					p {
+						flex-basis: 50%;
+						margin: 0 auto;
+						//width: auto;
+						//width: 555px;
+						max-width: 555px;
+						height: auto;
+						//min-width: 25%;
+						text-align: left;
+						font-size: 20px;
+						line-height: 28px;
+						color: #797979;
+						padding-top: 57.4px; 
+						padding-bottom: 14px;
 					}
 				}
 
-				.imgBG {
-					width: 700px;
-					height: 445px;
-					background: $bg url('../../images/home/rehearsal.png')no-repeat;
-					//background-size: cover;
-					object-fit: contain;
+				.imgWrap {
+					flex-basis: 50%;
+					max-width: 100%;
+					height: auto;
+					object-fit: cover;
+				}
+
+				img {
+					max-width: 100%;
 				}
 
 				.productName {
 					padding-top: 130.3px;
 				}
 
-				.imgWrap  {
-					min-height: 87px;
-				}
 			}
 		}
 	}

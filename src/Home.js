@@ -22,7 +22,7 @@ class Home extends Component {
                   <h3>Unraveling Surgery<br/>
                   for Caring Patients</h3>
                   <p>
-                      We encode moments, decode meanings.
+                      We encode moments, decode meanings
                   </p>
               </div>
             </section>
@@ -40,79 +40,95 @@ class Home extends Component {
               <article>
                 <ul className="departmentList">
                   <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/ic01.png')} alt=""/>
+                    <div className="box">
+                      <div className="imgWrap">   
+                        <p>
+                          <img src={require('./assets/images/home/ic01.png')} alt="content img"/>
+                        </p>
+                      </div>
+                      <h5 className="name">Patient</h5>
+                      <p className="position">Early recovery <br/> Less complications 
+                        <img src={require('./assets/images/home/bar.png')} alt=""/>
+                        </p>
+                      <ol>
+                        <li>Better Quality of Life</li>
+                        <li>Improved Survival Rate </li>
+                        <li>Less postoperative complications</li>
+                      </ol>
                     </div>
-                    <h5>Patient</h5>
-                    <p>Early recovery
-                      and Less complications </p>
-                    <ol>
-                      <li>Better Quality of Life</li>
-                      <li>Improved Survival Rate </li>
-                      <li>Less postoperative complications</li>
-                    </ol>
                   </li>
                   <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/ic02.png')} alt=""/>
+                    <div className="box">
+                      <div className="imgWrap">   
+                        <p>
+                          <img src={require('./assets/images/home/ic02.png')} alt="" />
+                        </p>
+                      </div>
+                      <h5 className="name"> MD/Hospital</h5>
+                      <p className="position"> Fair environment <br/> for surgeons  
+                      <img src={require('./assets/images/home/bar.png')} alt=""/>
+                      </p>
+                      <ol>
+                        <li>Reduction in Learning Curve for surgical procedures </li>
+                        <li>Stability and reliability of surgery </li>
+                        <li>Preventing intraoperative accidents and adverse events</li>
+                      </ol>
                     </div>
-                    <h5 className="name">MD / Hospital</h5>
-                    <p className="position">Providing fair environment to 
-                      surgeons Supporting proper, 
-                      accurate, and forehanded 
-                      decision making </p>
-                    <ol>
-                      <li>Reduction in Learning Curve for surgical procedures </li>
-                      <li>Stability and reliability of surgery </li>
-                      <li>Preventing intraoperative accide-nts and adverse events</li>
-                    </ol>
                   </li>
                   <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/ic03.png')} alt=""/>
+                    <div className="box">
+                      <div className="imgWrap">   
+                        <p>
+                          <img src={require('./assets/images/home/ic03.png')} alt=""/>
+                        </p>
+                      </div>
+                      <h5 className="name">Robot Company</h5>
+                      <p className="position"> Expanding the surgical <br/> robot market  <br/> &nbsp; 
+                        <img src={require('./assets/images/home/bar.png')} alt=""/>
+                      </p>
+                      <ol>
+                        <li>Providing unmet needs of surgeons</li>
+                        <li>Solution for future technology</li>
+                        
+                      </ol>
                     </div>
-                    <h5 className="name">Robot Company</h5>
-                    <p className="position">Expanding market share</p>
-                    <ol>
-                      <li>Providing unmet needs of surgeons</li>
-                      <li>Solution for future technology</li>
-                      <li>Achieving product differentiation to</li>
-                    </ol>
                   </li>
                   <li>
-                    <div className="imgWrap">   
-                      <img src={require('./assets/images/home/ic04.png')} alt=""/>
+                    <div className="box">
+                      <div className="imgWrap">   
+                        <p>
+                          <img src={require('./assets/images/home/ic04.png')} alt=""/>
+                        </p>
+                      </div>
+                      <h5 className="name">Insurance Company</h5>
+                      <p className="position"> Reducing total medical cost <br/> &nbsp;
+                      <br/>
+                       <img src={require('./assets/images/home/bar.png')} alt=""/>
+                      </p>
+                      <ol>
+                        <li>Reduction of cost for complication management</li>
+                      </ol>
                     </div>
-                    <h5 className="name">Insurance Company</h5>
-                    <p className="position"> Reducing total medical cost </p>
-                    <ol>
-                      <li>Reduction of cost for complication management</li>
-                    </ol>
                   </li>
                 </ul>
               </article>
+              <article className="provideTitle">
+              </article>
+              <article className="provideList">
+                <div className="imgWrap">   
+                  <img src={require('./assets/images/home/rehearsal.png')} alt="content img"/>
+                </div>
+                <div className="wrap">
+                  <h5>Surgical Rehearsal</h5>
+                  <p> Instead of a training tool for operating the surgical robot, hutom's surgical reheasal platform is a service that enhances the perfection of surgery by performing the surgical procedure on patient-specific anatomical models in advance,  obtaining the best surgical methods, and utilizing them in real-world surgery.
+                  </p>
+                </div>
+              </article>
               <article>
-                <h4 className="provideTitle">
-                  <div className="imgWrap">   
-                    <img src={require('./assets/images/home/the-product-we-provide.png')} alt=""/>
-                  </div>
+                <h4 className="contentTitle advisor2">ADVISORS <br/>
+                <img src={require('./assets/images/home/bar2.png')} alt=""/> 
                 </h4>
-
-                <ul className="provideList">
-                  <li>
-                    <div className="sectionBoard">   
-                      <img src={require('./assets/images/home/rehearsal.png')} alt=""/>
-                    </div>
-                  </li>
-                  <li>
-                    <h5>Surgical Rehearsal</h5>
-                    <p> Instead of a training tool for operating the surgical robot, hutom's surgical reheasal platform is a service that enhances the perfection of surgery by performing the surgical procedure on patient-specific anatomical models in advance,  obtaining the best surgical methods, and utilizing them in real-world surgery.
-                    </p>
-                  </li>
-                </ul>
-              </article>
-              <article>
-                <h4 className="contentTitle advisor">ADVISORS</h4>
+                
                 <Slider {...settings}>
                     <div>
                       <img src={require('./assets/images/about/YONSEI.png')} alt=""/>
@@ -125,23 +141,19 @@ class Home extends Component {
                     </div>
                   </Slider>
               </article>
-              
+              <article className="provideList">
+                <div className="wrap">
+                  <h5>Surgical Navigation</h5>
+                  <p> The hutom's Surgical AI platform recognizes surgical video and produces a medical description. It produces innovative reports that compare with optimal surgery, as well as analysis of the surgical process and prediction of the surgical outcome.
+                  </p>
+                </div>
+                <div className="imgWrap">   
+                    <img src={require('./assets/images/home/navi.png')} alt="content img"/>
+                </div>
+              </article>     
               <article>
-                <ul className="provideList">
-                  <li>
-                    <h5>Surgical Navigation</h5>
-                    <p> The hutom's Surgical AI platform recognizes surgical video and produces a medical description. It produces innovative reports that compare with optimal surgery, as well as analysis of the surgical process and prediction of the surgical outcome.
-                    </p>
-                  </li>
-                  <li>
-                    <div className="sectionBoard">   
-                      <img src={require('./assets/images/home/navi.png')} alt=""/>
-                    </div>
-                  </li>
-                </ul>
-              </article>              
-              <article>
-                <h4 className="contentTitle advisor">PARTNERS</h4>
+                <h4 className="contentTitle advisor2">PARTNERS<br/>
+                <img src={require('./assets/images/home/bar2.png')} alt=""/> </h4>
                 <Slider {...settings}>
                     <div>
                       <img src={require('./assets/images/about/SEVERANCE.png')} alt=""/>
@@ -160,27 +172,26 @@ class Home extends Component {
                     </div>
                   </Slider>
               </article>
-              <article>
-                <ul className="provideList">
-                  <li>
-                    <div className="sectionBoard">   
-                      <img src={require('./assets/images/home/planning.png')} alt=""/>
-                    </div>
-                  </li>
-                  <li>
+              <article className="provideList">
+                  <div className="imgWrap">   
+                    <img src={require('./assets/images/home/analytics.png')} alt="content img"/>
+                  </div>
+                  <div className="wrap">
                     <h5>Surgical Analytics</h5>
                     <p> A real-time based PaaS (Platform as a Service) solution that uses patient-specific 3D models to rovide anatomical information that is difficult to identify with images in combination with surgical information. 
-                    </p>
-                  </li>
-                </ul>
-              </article>              
-
+                  </p>
+                  </div>
+              </article>
             </section>
         </main>
         <footer>
           <div className="wrap">
             <p>© 2019 hutom. All rights reserved.</p>
-            <p>6F #615, 21, Baekbeom-ro 31-gil, Mapo-gu, Seoul(04147), Republic of Korea</p>
+            <p>Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (04147) 6F #615, 21, Baekbeom-ro 31-gil, Mapo-gu, Seoul, Republic of Korea
+              <br/>
+              <br/>
+              Call US &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ranny Park, Manager   TEL: +82-2-6956-0426   Email: contact@hutom.io
+            </p>
           </div>
         </footer>
       </div>
