@@ -112,7 +112,10 @@ class Home extends Component {
                   </li>
                 </ul>
               </article>
-              <article className="provideTitle">
+              <article >
+                <div className="provideTitle">
+                  <img src={require('./assets/images/home/the-product-we-provide.png')} alt=""/>
+                </div>
               </article>
               <article className="provideList">
                 <div className="imgWrap">   
@@ -125,7 +128,8 @@ class Home extends Component {
                 </div>
               </article>
               <article>
-                <h4 className="contentTitle advisor2">ADVISORS <br/>
+                <div className="contentTitle advisor2">
+                <h4 >ADVISORS <br/>
                 <img src={require('./assets/images/home/bar2.png')} alt=""/> 
                 </h4>
                 
@@ -139,7 +143,8 @@ class Home extends Component {
                     <div>
                       <img src={require('./assets/images/about/SEOUL WOMEN.png')} alt=""/>
                     </div>
-                  </Slider>
+                </Slider>
+                </div> 
               </article>
               <article className="provideList">
                 <div className="wrap">
@@ -152,7 +157,8 @@ class Home extends Component {
                 </div>
               </article>     
               <article>
-                <h4 className="contentTitle advisor2">PARTNERS<br/>
+                <div className="contentTitle advisor2">
+                <h4>PARTNERS<br/>
                 <img src={require('./assets/images/home/bar2.png')} alt=""/> </h4>
                 <Slider {...settings}>
                     <div>
@@ -171,6 +177,7 @@ class Home extends Component {
                       <img src={require('./assets/images/about/KYUNGHEE.png')} alt=""/>
                     </div>
                   </Slider>
+                </div>
               </article>
               <article className="provideList">
                   <div className="imgWrap">   
@@ -179,7 +186,7 @@ class Home extends Component {
                   <div className="wrap">
                     <h5>Surgical Analytics</h5>
                     <p> A real-time based PaaS (Platform as a Service) solution that uses patient-specific 3D models to rovide anatomical information that is difficult to identify with images in combination with surgical information. 
-                  </p>
+                    </p>
                   </div>
               </article>
             </section>
