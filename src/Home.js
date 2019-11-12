@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './assets/scss/style.scss';
 import Slider from "react-slick";
+//import main_video from './assets/images/main_video.mp4'
 //import { Link, Route } from 'react-router-dom';
 
 class Home extends Component {
@@ -18,20 +19,17 @@ class Home extends Component {
       <div>
         <main className="container home">
             <section className="title">
+              
               <div className="wrap">
                   <h3>Unraveling Surgery<br/>
-                  for Caring Patients</h3>
-                  <p>
-                      We encode moments, decode meanings
-                  </p>
+                  Caring Patients</h3>
+                  <p> We encode moments, decode meanings </p>
               </div>
             </section>
             <section className="content">
               <article className="introduce">
-                <p>Compared to conventional open surgery, proportion of laparoscopic or robotic surgery has been increased rapidly due to better surgical outcomes, 
-                  even with its high cost.<br/> These changes are influenced on coverage of insurance system as well as patients’ preference. More importantly, the new platform which HUTOM is 
-                  developing for surgical patients care is more suitable because laparoscopic or robotic surgery is performed in an environment of imaging and data. 
-                </p>
+                  <p>The innovative technology of the Hutom Surgical Platform begins with an intuitive, analytical diagnosis of the patient's specificity and a simulated examination of the surgery through processing, recognition, analysis, and prediction of surgical videos. This information leads to a seamless operation by a surgeon, increasing the completion of the operation.In addition, our Surgical Platform provides an interactive report, which is utilized for the management of patient complications. It also has a positive effect on the surgeon's surgical methods. <br/> 
+                  Our value chains eventually provide positive value to stakeholders and the Surgical Platform continues to become intelligent and developed.</p>
                 <div className="imgWrap">
                   <img src={require('./assets/images/home/company_banner.png')} alt="content img" />
                   {/* <div className="img-content1"></div> */}
@@ -51,9 +49,9 @@ class Home extends Component {
                         <img src={require('./assets/images/home/bar.png')} alt=""/>
                         </p>
                       <ol>
-                        <li>Better Quality of Life</li>
-                        <li>Improved Survival Rate </li>
-                        <li>Less postoperative complications</li>
+                        <li>Better quality of life</li>
+                        <li>Improving surgical outcomes </li>
+                        <li>Less post-operative complications</li>
                       </ol>
                     </div>
                   </li>
@@ -64,14 +62,14 @@ class Home extends Component {
                           <img src={require('./assets/images/home/ic02.png')} alt="" />
                         </p>
                       </div>
-                      <h5 className="name"> MD/Hospital</h5>
+                      <h5 className="name"> Surgeon </h5>
                       <p className="position"> Fair environment <br/> for surgeons  
                       <img src={require('./assets/images/home/bar.png')} alt=""/>
                       </p>
                       <ol>
-                        <li>Reduction in Learning Curve for surgical procedures </li>
-                        <li>Stability and reliability of surgery </li>
-                        <li>Preventing intraoperative accidents and adverse events</li>
+                        <li>Solving the unsatisfied desires of the surgeon </li>
+                        <li>Reducing learning curve for surgical procedures </li>
+                        <li>Preventing intra-operative accidents and adverse events</li>
                       </ol>
                     </div>
                   </li>
@@ -87,7 +85,7 @@ class Home extends Component {
                         <img src={require('./assets/images/home/bar.png')} alt=""/>
                       </p>
                       <ol>
-                        <li>Providing unmet needs of surgeons</li>
+                        <li>Improving stability and reliability of surgical robot</li>
                         <li>Solution for future technology</li>
                         
                       </ol>

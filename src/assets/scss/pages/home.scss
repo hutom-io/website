@@ -1,22 +1,61 @@
 .container {
 	&.home {
 		.title {
-			height: 700px;
-			background: $bg url('../../images/website_banner_main.jpg')no-repeat;
+			margin: 0 auto;
+			height: 742px;
+			//background: url('../../images/main_video.mp4');
+			background: linear-gradient(to right, #2bbba8 -12%, #2bbba8 -11%, #1c8989 112%);
+			background-image: url('../../images/website_banner_main.jpg');
+			background-repeat: no-repeat;
 			background-size: cover;
-			h3 {
-				margin: 0 auto;
-				font-size: 72px;
-				text-align: left;
-				line-height: 1.2;
+			//background-position: center;
+			.wrap{
+				h3 {
+					//font-size: 72px;
+					padding-top: 234.5px;
+					flex-basis: 50%;
+					text-align: left;
+					//line-height: 1.2;
+					//min-width: 300px;
+					min-height: 25%;
+					font-family: NanumSquareEB;
+					font-size: 5rem;
+					font-weight: normal;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: 1.2;
+					letter-spacing: -1.68px;
+					color: #ffffff;
+				}
+				p {
+					padding-top: 44.3px;
+					//font-size: 32px;
+					//line-height: 42px;
+					//max-width: auto;
+					font-family: NanumSquareR;
+					font-size: 2rem;
+					font-weight: normal;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: 1.43;
+					letter-spacing: normal;
+					text-align: left;
+					color: #e2f0ef;			
+				}
+			.video{
+				opacity: 1;
+				//position: fixed;
+				top: 0;
+				//float: left;
+				padding: none;
+				//bottom: 0;
+				display: block;
+				visibility: inherit;
+				max-height: 742px;
+				//width: 100%;
+				//z-index: -1;
 			}
-			p {
-				padding-top: 20px;
-				margin: 0 auto;
-				color: #fff;
-				font-size: 32px;
-				line-height: 42px;
-			}
+		}
 		}
 		.content {
 			.introduce {
@@ -26,14 +65,17 @@
 					font-size: 20px;
 					line-height: 38px;
 					color: #787878;
-					text-align: left;
+					text-align: justify;
 					flex-basis: 50%;
-					max-width: 50%;
+					min-width: 300px;
+					width: 518px;
+					//padding-right: 133.5px;
 				}
 				.imgWrap {
 					flex-basis: 50%;
 					max-width: 50%;
-					padding-left: 120px;
+					padding-left: 133.5px;
+					padding-right: 75px;
 					//max-width: 100%;
 					height: auto;
 					// background-color: #3cb49d;

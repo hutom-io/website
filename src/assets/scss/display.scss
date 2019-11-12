@@ -9,6 +9,8 @@
         text-align: center;
         height: auto;
         padding-top: 66px;
+        padding-left: 50px;
+        padding-right: 50px;
         h2 {
             padding: 15px 0;
             flex-basis: 100%;
@@ -165,6 +167,9 @@
     .container .content article .tabContainer .peopleList .top ul li {
         font-size: 16px;
         line-height: 1.4;
+        text-align: left;
+        padding-left: 10px;
+
     }
     .container .content article .tabContainer .peopleList .top {
         padding: 24px 0;
