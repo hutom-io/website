@@ -66,13 +66,13 @@ class About extends Component {
                           </div>
                         </div>
                         <ul className="list">
-                          <li>
+                          {/* <li>
                             <img src={require('./assets/images/memberProfile/C level/doug_lee.png')} alt="COO VP"/>
                               <div className="info">
                                 <p className="position">COO · VP</p>
                                 <h5 className="name">Douglas Lee </h5>
                               </div>
-                          </li>
+                          </li> */}
                           <li>
                             <img src={require('./assets/images/memberProfile/C level/sooheang_eo.png')} alt="CTO"/>
                             <div className="info">
@@ -397,13 +397,13 @@ class About extends Component {
                           <h5 className="name">Woo Jin Hyung</h5>
                         </div>
                         </li>
-                        <li>
+                        {/* <li>
                           <img src={require('./assets/images/memberProfile/C level/doug_lee.png')} alt="COO VP"/>
                           <div className="info">
                             <p className="position"> COO · VP <br/> hutom </p>
                             <h5 className="name">Douglas Lee</h5>
                           </div>
-                        </li>
+                        </li> */}
                         <li>
                           <img src={require('./assets/images/memberProfile/C level/joonmo_kim.png')} alt="Chief AI Scientist"/>
                           <div className="info">
