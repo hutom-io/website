@@ -30,7 +30,7 @@ class About extends Component {
       <div>
         <main className="container about">
             <section className="title">
-              <h3>ABOUT</h3>
+              <h3>ABOUT US</h3>
             </section>
             <section className="content">
               <article>
